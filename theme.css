@@ -20,7 +20,7 @@ div#left-column { width: 860px; margin-top: 100px; margin-bottom: 20px; }
 div#right-column {width: 160px; margin-top: 160px; }
 
 #header-logo { display:none; }
-#header { position: absolute; top: 0; left: 0; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #7f9388; height:  41px; width: 1010px; margin: 0 0 10px 10px; padding: 0; }
+#header { position: absolute; top: 0; left: 0; opacity: 0.79; filter: alpha(opacity=79); z-index: 900; background: #535c57; height:  41px; width: 1010px; margin: 0 0 10px 10px; padding: 0; }
 #header-navigation { left: auto;  top: 0; padding: 0; margin: 0 auto !important; width: 500px; }
 #header-navigation div { margin: 0 !important; }
 #header-navigation a { display: inline-block;  padding: 12px;  margin: 0; border-right: none; text-decoration: none; color: #fff; }
@@ -33,7 +33,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 .navigation a:hover, .navigation a:active, .navigation a:focus  { color: #000 !important; background: #c1c1c1; }
 .navigation a span.advice-message { color: #fff !important; }
 .navigation a span.advice-message:after { content: ' NEW'; font-weight: bold; }
-#game-navigation .navigation { background: #7f9388; border: 1px solid #853733; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
+#game-navigation .navigation { background: #7f9388; border: 1px solid #535c57; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 /* Account */
 #account-container { top: 0; right: 90px; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
@@ -88,7 +88,7 @@ h2 a, h3 a { color: #fff !important; text-decoration: underline !important; }
 .lobby-panel h1 a { color: #000; }
 .lobby-panel h1 a:hover { color: #000; }
 .lobby-panel h2 { font-size: 24px;  line-height: 30px; }
-.lobby-panel a { color: #747474 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
+.lobby-panel a { color: #535c57 !important; text-decoration: underline; text-align: left; margin: 0 0 10px 0; }
 .lobby-panel p:first-child { margin: 0 0 10px 0; }
 .age-changes h3, .campaigns h3 { line-height: 24px; }
 .recruitment-campaigns h1, .race-changes h1, .trait-changes h1 { font-size: 40px; line-height: 45px; }
@@ -122,13 +122,13 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .error { color: #e55700; }
 
 #game-navigation { }
-#game-navigation .current-date { z-index: 10000; position: absolute; font-weight: 700; top: -200px; left: 10px; margin-bottom: 0; padding: 12px 14px; text-shadow: none; border: none; background: #747474; }
+#game-navigation .current-date { z-index: 10000; position: absolute; font-weight: 700; top: -200px; left: 10px; margin-bottom: 0; padding: 12px 14px; text-shadow: none; border: none; background: #535c57; }
 #game-navigation a { line-height: 0.6em; color: #fff; }
 #game-navigation a:hover, #game-navigation a:active, #game-navigation a:focus { box-shadow: none; color: #fff; text-decoration: underline; }
 
 /* Resource Bar */
 #resource-bar { /* width: 725px; */ width: 840px; margin-top: -170px; }
-#resource-bar thead { background: #747474; }
+#resource-bar thead { background: #535c57; }
 #resource-bar thead th { font-weight: normal; padding: 3px 0; width: 98px; border-right: 1px inset #141413; }
 #resource-bar thead th:first-child { border-top-left-radius:4px; }
 #resource-bar thead th:last-child { border-top-right-radius:4px; border-right: none; }
@@ -142,7 +142,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 /* Game-Content */
 .game-content { margin-top: -2px; width: 725px; color: #000; border-top-right-radius:4px; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
 .game-content table { margin-bottom: 0; background: #f5f3e6; color: #000; }
-.game-content thead th { font-weight: normal; font-size: 12px !important; background: #747474; color: #fff; text-align: center !important; }
+.game-content thead th { font-weight: normal; font-size: 12px !important; background: #535c57; color: #fff; text-align: center !important; }
 .game-content tbody th { border-left: 6px ridge rgba(48, 48, 48, 0.4); }
 .game-content tbody th:first-child { border-left: none; }
 .game-content tbody td { padding-right: 20px; }
@@ -150,7 +150,7 @@ td#new-royal-command-content p.advice-message { width: auto !important; }
 .game-content tbody tr { border-bottom: 2px groove rgba(48, 48, 48, 0.4); border-top: 2px groove rgba(48, 48, 48, 0.4); }
 .game-content tbody tr:nth-child(even) { background: #f4f0cd !important; color: #000; }
 .game-content tbody tr.sub-total { background: none; }
-.game-content tfoot th { background: #747474; color: #fff; }
+.game-content tfoot th { background: #535c57; color: #fff; }
 .game-content tr.sub-total th { border-top 2px solid gray !important; }
 .game-content tr.sub-total td { border-top: 2px solid gray; padding-bottom: 25px; }
 .game-content table.schedule { font-size:0.8em; }
