@@ -71,7 +71,8 @@ div#right-column {width: 160px; margin-top: 160px; }
 
 /* Account */
 #account-container { top: 0; right: 0; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
-#account-header .account-image { background: url(./images/anonymous_small.png) no-repeat top left; margin-top: -5px; }
+#account-header .account-image { display: none; }
+#account-header .account-name { background: url(./images/anonymous_small.png) no-repeat center; text-indent: -999em; height: 24px; width: 32px; }
 #account-header { color: #edf2fd; margin-top: -3px; padding: 8px; }
 #account-header:hover { background-color: #494432; }
 #account-header.selected { background-color: #494432; }
