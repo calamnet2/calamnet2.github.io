@@ -28,6 +28,12 @@ div#right-column {width: 160px; margin-top: 160px; }
 #header-navigation .navigation a:hover, #header-navigation .navigation a:active, #header-navigation .navigation a:focus { color: #fff !important; }
 
 #header-navigation a[href='/lobby/'] { background: url(./images/nav/lobby.png) top left no-repeat; }
+#header-navigation a[href='shop-login-link'] { background: url(./images/nav/shop.png) top left no-repeat; }
+#header-navigation a[href='/common/ranking_archive/'] { background: url(./images/nav/rankings.png) top left no-repeat; }
+#header-navigation a[href='http://forums.utopia-game.com/forumdisplay.php?1527-Utopia'] { background: url(./images/nav/forum.png) top left no-repeat; }
+#header-navigation a[href='http://wiki.utopia-game.com/index.php?title=Game_Rules'] { background: url(./images/nav/rules.png) top left no-repeat; }
+#header-navigation a[href='http://wiki.utopia-game.com/'] { background: url(./images/nav/guide.png) top left no-repeat; }
+#header-navigation a[href='http://blog.utopia-game.com/'] { background: url(./images/nav/blog.png) top left no-repeat; }
 
 /* Navigation */
 .navigation { font-weight: normal; text-align: left; padding: 0; margin: 0; color: #fff; }
