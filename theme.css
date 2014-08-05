@@ -30,13 +30,19 @@ div#right-column {width: 160px; margin-top: 160px; }
 /* Test */
 #header-navigation a[href='/lobby/'] { background: url(./images/nav/lobby.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
 #header-navigation a[href='#'] { background: url(./images/nav/shop.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
-#header-navigation a[href='/lobby/']:hover { background: url(./images/nav/lobby2.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
-#header-navigation a[href='#']:hover { background: url(./images/nav/shop2.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
 #header-navigation a[href='/common/ranking_archive/'] { background: url(./images/nav/rankings.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
 #header-navigation a[href='http://forums.utopia-game.com/forumdisplay.php?1527-Utopia'] { background: url(./images/nav/forum.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
 #header-navigation a[href='http://wiki.utopia-game.com/index.php?title=Game_Rules'] { background: url(./images/nav/rules.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
 #header-navigation a[href='http://wiki.utopia-game.com/'] { background: url(./images/nav/guide.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
 #header-navigation a[href='http://blog.utopia-game.com/'] { background: url(./images/nav/blog.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
+
+#header-navigation a[href='/lobby/']:hover, #header-navigation a[href='/lobby/']:active, #header-navigation a[href='/lobby/']:focus { background-image: url(./images/nav/lobby2.png);  }
+#header-navigation a[href='#']:hover, #header-navigation a[href='#']:active, #header-navigation a[href='#']:focus { background: url(./images/nav/shop2.png) center no-repeat;  }
+#header-navigation a[href='/common/ranking_archive/']:hover, #header-navigation a[href='/common/ranking_archive/']:active, #header-navigation a[href='/common/ranking_archive/']:focus { background: url(./images/nav/rankings2.png) center no-repeat;  }
+#header-navigation a[href='http://forums.utopia-game.com/forumdisplay.php?1527-Utopia']:hover, #header-navigation a[href='http://forums.utopia-game.com/forumdisplay.php?1527-Utopia']:active, #header-navigation a[href='http://forums.utopia-game.com/forumdisplay.php?1527-Utopia']:focus { background: url(./images/nav/forum2.png) center no-repeat;  }
+#header-navigation a[href='http://wiki.utopia-game.com/index.php?title=Game_Rules']:hover, #header-navigation a[href='http://wiki.utopia-game.com/index.php?title=Game_Rules']:active, #header-navigation a[href='http://wiki.utopia-game.com/index.php?title=Game_Rules']:focus { background: url(./images/nav/rules2.png) center no-repeat;  }
+#header-navigation a[href='http://wiki.utopia-game.com/']:hover, #header-navigation a[href='http://wiki.utopia-game.com/']:active, #header-navigation a[href='http://wiki.utopia-game.com/']:focus { background: url(./images/nav/guide2.png) center no-repeat;  }
+#header-navigation a[href='http://blog.utopia-game.com/']:hover, #header-navigation a[href='http://blog.utopia-game.com/']:active, #header-navigation a[href='http://blog.utopia-game.com/']:focus { background: url(./images/nav/blog2.png) center no-repeat;  }
 
 /* Production */
 #header-navigation a[href='/shared/lobby/'] { background: url(./images/nav/lobby.png) center no-repeat; text-indent: -999em; height: 24px; width: 32px; }
