@@ -28,7 +28,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 #header-navigation .navigation a:hover, #header-navigation .navigation a:active, #header-navigation .navigation a:focus { color: #fff !important; }
 
 /* Test */
-#header-navigation a[href='/lobby/'] { background: url(./images/nav/lobby.png) top left no-repeat; }
+#header-navigation a[href='/lobby/'] { background: url(./images/nav/lobby.png) top left no-repeat; text-index: -999em; height: 24px; width: 32px; }
 #header-navigation a[href='#'] { background: url(./images/nav/shop.png) top left no-repeat; }
 #header-navigation a[href='/common/ranking_archive/'] { background: url(./images/nav/rankings.png) top left no-repeat; }
 #header-navigation a[href='http://forums.utopia-game.com/forumdisplay.php?1527-Utopia'] { background: url(./images/nav/forum.png) top left no-repeat; }
