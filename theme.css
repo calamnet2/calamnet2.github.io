@@ -498,7 +498,7 @@ tr th div#cellNotice { right: auto; position: relative; width: auto; }
 div#ircchat { padding: 75px 0 0 0; width: 1010px; }
 td font { color: #747474; }
 div#toggler, div#botlinks, div#botupdate { margin-top: 75px !important; margin-left: 400px !important; width: auto !important; padding: 5px; }
-div#overlay { background: #5C1D1A; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
+div#overlay { background: #747474; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
 
 
 /* Smartphones (portrait and landscape) ----------- */
