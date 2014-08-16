@@ -494,6 +494,13 @@ tr th#rescell2 { top: -124px; }
 tr th#rescell3 { top: -90px; color: #fff !important; }
 tr th div#cellNotice { right: auto; position: relative; width: auto; }
 
+/* Munk Specific */
+div#ircchat { padding: 75px 0 0 0; width: 1010px; }
+td font { color: #747474; }
+div#toggler, div#botlinks, div#botupdate { margin-top: 75px !important; margin-left: 400px !important; width: auto !important; padding: 5px; }
+div#overlay { background: #5C1D1A; color: #fff; border-radius: 4px; margin: 0 0 10px 0; padding: 8px; width: 709px; }
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (max-device-width : 767px) {
@@ -517,6 +524,8 @@ and (max-device-width : 767px) {
   	.lobby-panel h1 { font-size: 72px; line-height: 76px; }
   	div.lobby-panel+p, div.lobby-panel+p+p { margin: 0 0 10px 0; text-align: left; }
   	.game-content table.mail-view form { height: auto !important; }
+  	div#ircchat { width: auto; }
+  	div#overlay { width: auto; }
 }
 
 /* iPhone 4 ----------- */
