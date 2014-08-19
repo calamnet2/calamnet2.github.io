@@ -526,6 +526,9 @@ and (max-device-width : 767px) {
   	.game-content table.mail-view form { height: auto !important; }
   	div#ircchat { width: auto; }
   	div#overlay { width: auto; }
+  	
+  	.game-content div.change-kingdom-form { width: 100% !important; right: 20px !important; position: relative !important; height: 100px !important; background: #5C1D1A !important; margin-bottom: 20px !important; margin-left: 20px !important; }
+	div#bookmark-container { z-index: 999; }
 }
 
 /* iPhone 4 ----------- */
