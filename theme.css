@@ -420,7 +420,7 @@ body.wysiwyg { color: #000; background: #fff; font-size: 12px !important; text-a
 #royal-command-icon:hover { background-color: #494432; }
 
 /* Kingdom Page */
-.tablesorter th { white-space: nowrap; }
+.tablesorter th { white-space: normal; vertical-align: bottom; }
 .tablesorter th .order-icon { background-image: url(./images/order_none.png); }
 .tablesorter th.headerSortUp .order-icon { background-image: url(./images/order_asc.png); }
 .tablesorter th.headerSortDown .order-icon { background-image: url(./images/order_desc.png); }
