@@ -70,7 +70,7 @@ div#right-column {width: 160px; margin-top: 160px; }
 #game-navigation .navigation { background: #281f19; border: 1px solid #000; border-radius:4px; opacity: 0.8; filter: alpha(opacity=80); }
 
 /* Account */
-#account-container { top: 0; right: 0; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
+#account-container { top: 0; right: 0px; width: 150px; padding-top: 10px; position: relative; display: inline-block; }
 #account-header .account-image { display: none; }
 #account-header .account-name { background: url(./images/nav/account.png) no-repeat center; text-indent: -999em; height: 24px; width: 24px; }
 #account-header { color: #edf2fd; margin-top: -3px; padding: 8px; }
@@ -323,6 +323,9 @@ span.chamberlain {/*color: #4a732e;*/ color: #f9ffb2; }
 .tablesorter tr.protected td { background: #2736ff; color: #fff; }
 .tablesorter tr.protected a { color: #fff !important; }
 span.protected { color: #2736ff; }
+.tablesorter tr.you td { background: #18460C; color: #fff; }
+.tablesorter tr.you a { color: #fff !important; }
+span.you { color: #18460C;}
 
 /* Provinces Legend */
 .provinces-legend { font-size: 0.8em; background: #fff !important; }
